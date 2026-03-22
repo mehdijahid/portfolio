@@ -264,11 +264,11 @@ export function Hero() {
               
               {/* Image Border */}
               <div className="absolute inset-0 rounded-full p-1 bg-gradient-to-br from-electric-blue via-digital-purple to-hot-magenta">
-               <div className="w-full h-full rounded-full overflow-hidden bg-background flex items-center justify-center">
+               <div className="w-full h-full rounded-full overflow-hidden bg-background flex items-center justify-center scale-100">
                   <img
-                    src={`${import.meta.env.BASE_URL}profile.jpeg`}
+                    src={`${import.meta.env.BASE_URL}edited_image.jpg`}
                     alt="El Mehdi El Jahid"
-                    className="w-[130%] h-[130%] object-contain"
+                    className="w-full h-full object-contain object-top"
                   />
                 </div>
               </div>
