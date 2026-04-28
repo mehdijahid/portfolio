@@ -78,7 +78,7 @@ export function About() {
                   </div>
                   <div>
                     <p className="text-xs text-muted-foreground">Location</p>
-                    <p className="text-sm font-medium">Salé, Morocco</p>
+                    <p className="text-sm font-medium">Rabat, Morocco</p>
                   </div>
                 </div>
               </motion.div>

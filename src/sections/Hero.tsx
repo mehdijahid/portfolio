@@ -266,7 +266,7 @@ export function Hero() {
               <div className="absolute inset-0 rounded-full p-1 bg-gradient-to-br from-electric-blue via-digital-purple to-hot-magenta">
                <div className="w-full h-full rounded-full overflow-hidden bg-background flex items-center justify-center scale-100">
                   <img
-                    src={`${import.meta.env.BASE_URL}edited_image.jpg`}
+                    src={`${import.meta.env.BASE_URL}image_mehdi.png`}
                     alt="El Mehdi El Jahid"
                     className="w-full h-full object-contain object-top"
                   />
