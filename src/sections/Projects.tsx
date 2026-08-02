@@ -20,39 +20,49 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
+    title: 'iClinika - Hospital Management Platform',
+    description: 'Full-featured hospital management web application with role-based access control',
+    longDescription:
+      'Developed and enhanced a hospital management platform during a full-stack internship, delivering a complete visual rebrand and responsive design across the application. Also led a personal initiative to migrate part of the platform toward a React and Laravel stack, implementing the homepage and several priority modules with Laravel Query Builder while reusing the existing MariaDB schema.',
+    image: `${import.meta.env.BASE_URL}iclinika.png`,
+    technologies: ['PHP', 'React', 'Laravel' , 'REST API' , 'Bootstrap', 'JavaScript' , 'Git'],
+    featured: true,
+  },
+  {
+    id: 2,
     title: 'AI Image Analysis Web Application',
     description: 'Intelligent image analysis platform with Gemini AI integration',
     longDescription:
       'Developed a comprehensive image analysis platform that integrates the Gemini AI API. Features include an admin dashboard, intelligent image processing, and detailed analysis results with confidence scoring.',
     image: `${import.meta.env.BASE_URL}projet_ia_node.jpg`,
-    technologies: ['React.js', 'Node.js', 'Gemini AI', 'REST API', 'Bootstrap'],
+    technologies: ['React.js', 'Node.js', 'Gemini AI', 'REST API', 'Bootstrap' , 'Git'],
     featured: true,
     github: 'https://github.com/mehdijahid/AsMe-Vision_NodeJs',
   
   },
   {
-    id: 2,
+    id: 3,
     title: 'AI Image Analysis Laravel Web Application',
     description: 'Intelligent image analysis platform with Gemini AI integration',
     longDescription:
       'Developed a comprehensive image analysis platform that integrates the Gemini AI API. Features include an admin dashboard, intelligent image processing, and detailed analysis results with confidence scoring.',
     image: `${import.meta.env.BASE_URL}laravel_ia.png`,
-    technologies: ['Laravel', 'Gemini AI', 'REST API', 'Bootstrap'],
+    technologies: ['Laravel', 'Gemini AI', 'REST API', 'Bootstrap' , 'Git'],
     featured: true,
     github: 'https://github.com/mehdijahid/AsMe-Vision_Laravel',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Automated CICD Sheet Generator',
     description: 'Internal control document generation system for ONCF',
     longDescription:
       'Built during internship at ONCF, this system automatically generates internal control documents (CICD sheets) with a RESTful API architecture for seamless integration.',
     image: `${import.meta.env.BASE_URL}CICD_image.png`,
-    technologies: ['React.js', 'Laravel API', 'MySQL', 'RESTful API'],
+    technologies: ['React.js', 'Laravel API', 'MySQL', 'RESTful API', 'Git'],
     github: 'https://github.com/mehdijahid/CI-CD-Web',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Garage Management Platform',
     description: 'Complete management system for automotive businesses',
     longDescription:
@@ -62,7 +72,7 @@ const projects: Project[] = [
     github: 'https://github.com/mehdijahid/car-garage-website',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Restaurant Admin Dashboard',
     description: 'Admin interface for restaurant management',
     longDescription:

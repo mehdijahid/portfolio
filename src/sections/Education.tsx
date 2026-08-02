@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { GraduationCap, Calendar, MapPin, Award, BookOpen } from 'lucide-react';
+import { GraduationCap, Calendar, MapPin, BookOpen } from 'lucide-react';
 
 interface Education {
   id: number;
@@ -19,10 +19,10 @@ const educations: Education[] = [
     degree: "Bachelor's Degree in Web and Mobile Development",
     institution: 'ISMAGI',
     location: 'Rabat, Morocco',
-    period: 'Since September 2025',
-    status: 'ongoing',
+    period: '2025 - 2026',
+    status: 'completed',
     description:
-      'Currently pursuing advanced studies in web and mobile development, focusing on modern frameworks and technologies.',
+      'Obtained a License degree in Web and Mobile Development, with a focus on modern frameworks and technologies.',
     icon: 'B',
   },
   {
@@ -211,15 +211,7 @@ export function Education() {
             className="p-6 rounded-2xl glass flex items-center gap-4"
             whileHover={{ scale: 1.02 }}
           >
-            <div className="w-12 h-12 rounded-full bg-digital-purple/20 flex items-center justify-center">
-              <Award className="w-6 h-6 text-digital-purple" />
-            </div>
-            <div>
-              <h4 className="font-heading font-semibold">Certifications</h4>
-              <p className="text-sm text-muted-foreground">
-                Professional diploma in Full Stack Development
-              </p>
-            </div>
+            
           </motion.div>
         </motion.div>
       </div>

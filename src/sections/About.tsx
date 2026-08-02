@@ -139,18 +139,21 @@ export function About() {
                 transition={{ delay: 0.6 }}
               >
                 <p>
-                  Full Stack Web Developer currently pursuing a degree in Web and
-                  Mobile Development at <strong className="text-foreground">ISMAGI (Rabat)</strong>.
-                  Previously obtained a Specialized Technician diploma in Full Stack
-                  Web Development from <strong className="text-foreground">CMC Rabat</strong>.
+                  Full Stack Web Developer with a{" "}
+                  <strong className="text-foreground">
+                    Bachelor's degree in Web and Mobile Development
+                  </strong>{" "}
+                  from <strong className="text-foreground">ISMAGI (Rabat)</strong>. Previously
+                  earned a{" "}
+                  <strong className="text-foreground">
+                    Specialized Technician diploma in Full Stack Web Development
+                  </strong>{" "}
+                  from <strong className="text-foreground">CMC Rabat</strong>.
                 </p>
                 <p>
-                  Focused on building modern user interfaces and complete web
-                  applications using <span className="text-electric-blue">React</span>,{' '}
-                  <span className="text-digital-purple">Laravel</span>, and{' '}
-                  <span className="text-hot-magenta">AI technologies</span>. Strong
-                  analytical thinking, adaptable, and comfortable working in team
-                  environments.
+                  Passionate about building scalable, user-centered web applications using
+                  modern web technologies and AI-powered solutions. Strong analytical thinking,
+                  adaptable, and experienced working in collaborative development environments.
                 </p>
                 <p>
                   I'm passionate about creating solutions that not only look great
@@ -174,10 +177,6 @@ export function About() {
                 <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-secondary">
                   <Code2 className="w-4 h-4 text-digital-purple" />
                   <span className="text-sm">Full Stack</span>
-                </div>
-                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-secondary">
-                  <GraduationCap className="w-4 h-4 text-hot-magenta" />
-                  <span className="text-sm">Student</span>
                 </div>
               </motion.div>
             </div>

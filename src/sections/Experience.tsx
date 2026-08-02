@@ -15,8 +15,19 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    id: 1,
-    title: 'Final Internship - Web Developer',
+    id: 2,
+    title: 'End-of-Year Internship - Full Stack Web Developer',
+    company: '4D Business Consulting',
+    location: 'Rabat, Morocco',
+    period: 'Mai 2026 – July 2026',
+    type: 'internship',
+    description:
+      'Developed and enhanced iClinika, a hospital management web platform, delivering a full visual rebrand and responsive design across the application. Also led a personal initiative to migrate part of the platform toward a React and Laravel stack.',
+    technologies: ['PHP', 'React', 'Laravel' , 'REST API' , 'Bootstrap', 'JavaScript' , 'Git'],
+  },
+  {
+    id: 2,
+    title: 'End-of-Year Internship - Full Stack Web Developer',
     company: 'ONCF (Moroccan National Railways)',
     location: 'Rabat, Morocco',
     period: 'April 2025 – May 2025',
@@ -26,7 +37,7 @@ const experiences: Experience[] = [
     technologies: ['Laravel', 'React', 'Git', 'REST API'],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Observation Internship',
     company: 'ONCF (Moroccan National Railways)',
     location: 'Rabat, Morocco',
@@ -36,7 +47,7 @@ const experiences: Experience[] = [
       'Studied railway operational systems and learned about digital systems and enterprise workflows. Gained insights into large-scale IT infrastructure and digital transformation.',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Team Member',
     company: "McDonald's Rabat Agdal",
     location: 'Rabat, Morocco',

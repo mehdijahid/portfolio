@@ -36,13 +36,14 @@ const skillCategories: SkillCategory[] = [
       { name: 'Laravel', icon: 'L', level: 85, color: '#FF2D20' },
       { name: 'Spring Boot', icon: 'S', level: 75, color: '#01fe4d' },
       { name: 'Express Js', icon: 'E', level: 80, color: '#000000' },
+      { name: 'Vue Js', icon: 'V', level: 80, color: '#15e315' },
     ],
   },
   {
     name: 'Tools & Platforms',
     skills: [
       { name: 'Git', icon: 'G', level: 85, color: '#F05032' },
-      { name: 'Docker', icon: 'D', level: 70, color: '#2496ED' },
+      { name: 'Docker', icon: 'D', level: 80, color: '#2496ED' },
       { name: 'VS Code', icon: 'V', level: 95, color: '#007ACC' },
       { name: 'MySQL', icon: 'M', level: 80, color: '#4479A1' },
       { name: 'MongoDB', icon: 'M', level: 70, color: '#47A248' },

@@ -146,7 +146,7 @@ export function Contact() {
               <p className="text-sm text-muted-foreground mb-4">Follow me on</p>
               <div className="flex gap-3">
                 <motion.a
-                  href="https://github.com"
+                  href="https://github.com/mehdijahid"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-xl glass flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-electric-blue/10 transition-colors"
