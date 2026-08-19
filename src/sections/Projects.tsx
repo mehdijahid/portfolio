@@ -20,6 +20,16 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
+    title: 'EduForm - Training Management Platform',
+    description: 'Full-stack e-learning platform for training, course, and student management',
+    longDescription:
+      'Designed and developed a full-stack e-learning platform with Spring Boot and React. Built a RESTful backend for managing training programs, courses, students, and enrollments, with authentication and role-based access control. Developed a responsive React frontend allowing users to browse formations, enroll in courses, and track their learning activities, while providing administrators with tools to manage platform content and users.',
+    image: `${import.meta.env.BASE_URL}photo1.png`,
+    technologies: ['Java', 'Spring Boot', 'React', 'REST API', 'Spring Security', 'JWT', 'MySQL', 'Git'],
+    featured: true,
+  },
+  {
+    id: 2,
     title: 'iClinika - Hospital Management Platform',
     description: 'Full-featured hospital management web application with role-based access control',
     longDescription:
@@ -29,7 +39,7 @@ const projects: Project[] = [
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
     title: 'AI Image Analysis Web Application',
     description: 'Intelligent image analysis platform with Gemini AI integration',
     longDescription:
@@ -41,7 +51,7 @@ const projects: Project[] = [
   
   },
   {
-    id: 3,
+    id: 4,
     title: 'AI Image Analysis Laravel Web Application',
     description: 'Intelligent image analysis platform with Gemini AI integration',
     longDescription:
@@ -52,7 +62,7 @@ const projects: Project[] = [
     github: 'https://github.com/mehdijahid/AsMe-Vision_Laravel',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Automated CICD Sheet Generator',
     description: 'Internal control document generation system for ONCF',
     longDescription:
@@ -62,7 +72,7 @@ const projects: Project[] = [
     github: 'https://github.com/mehdijahid/CI-CD-Web',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Garage Management Platform',
     description: 'Complete management system for automotive businesses',
     longDescription:
@@ -72,7 +82,7 @@ const projects: Project[] = [
     github: 'https://github.com/mehdijahid/car-garage-website',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Restaurant Admin Dashboard',
     description: 'Admin interface for restaurant management',
     longDescription:
